@@ -1,0 +1,21 @@
+{
+  "name": "create-qflow",
+  "version": "0.0.1",
+  "main": "index.js",
+  "type": "module",
+  "private": false,
+  "bin": {
+    "create-qflow": "index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@fractal-solutions/qflow": "^1.0.44",
+    "chalk": "^5.6.2",
+    "inquirer": "^12.10.0"
+  }
+}
