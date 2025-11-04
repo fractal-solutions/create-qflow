@@ -1,0 +1,1 @@
+User requested a better plan for utilizing tools and to have it saved in memory. The updated plan: 1) Use at least one tool per interaction. 2) Choose appropriate tools (system_notification for visual alerts, user_input for confirmations, etc.). 3) Keep the user informed via notifications and prompts. 4) Store this plan for future reference.

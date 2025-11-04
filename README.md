@@ -79,6 +79,8 @@ During the project creation process, you will be asked to choose one of the foll
     const myNode = new MyCustomNode();
     ```
 
+4.  **Agent (Generic LLM)**: This approach scaffolds a project with a generic AI agent capable of using various LLMs by configuring a base URL, API key, and model. It includes a custom `GenericLLMNode` for flexible LLM integration and a basic agent setup with tools like web search and system notifications.
+
 ## Getting Started with Your New Project
 
 After `create-qflow` finishes, navigate into your new project directory:
