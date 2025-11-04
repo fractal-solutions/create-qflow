@@ -7,7 +7,7 @@
 To use `create-qflow`, you need to have [Bun](https://bun.com) installed. Then, you can use `bunx` to run the scaffolder:
 
 ```bash
-bunx create-qflow my-new-project
+bunx create-qflow@latest my-new-project
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ bunx create-qflow my-new-project
 To create a new `qflow` project, run the following command:
 
 ```bash
-bunx create-qflow <project-name>
+bunx create-qflow@latest <project-name>
 ```
 
 Replace `<project-name>` with the desired name for your new project. The tool will then prompt you to select a workflow style.
