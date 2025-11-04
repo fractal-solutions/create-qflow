@@ -4,8 +4,10 @@ import fs from 'fs/promises';
 import path from 'path';
 import inquirer from 'inquirer';
 import chalk from 'chalk';
+import { fileURLToPath } from 'url';
 
-const __dirname = path.dirname(new URL(import.meta.url).pathname);
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 async function main() {
   console.log(chalk.bold.hex('#FFD700')('\n✨ Welcome to create-qflow! ✨\n')); // Gold color
