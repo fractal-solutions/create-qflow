@@ -97,6 +97,7 @@ async function main() {
       const envContent = `# This .env file is used to configure the Generic LLM Agent.\n# Replace the placeholder values with your actual API key, model, and base URL.\n\nAGENT_LLM_API_KEY=YOUR_LLM_API_KEY\nAGENT_LLM_MODEL=your-preferred-model\nAGENT_LLM_BASE_URL=your-llm-base-url\nAGENT_LLM_SITE_TITLE=Your Agent Name\n`;
       await fs.writeFile(path.join(projectPath, '.env'), envContent);
       console.log(chalk.hex('#98FB98')(`Created .env file in ${projectPath} for agent configuration.`));
+      console.log(chalk.hex('#FF6347')('  ⚠️ IMPORTANT: Remember to fill in your LLM credentials in the newly created .env file before running the agent!')); // Tomato color
 
     } else {
       // Remove agent-specific files and directories if they were copied by fs.cp
